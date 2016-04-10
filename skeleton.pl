@@ -27,7 +27,7 @@ if ($choice == "1")
 	system("touch ./".$name."/header.php");
 	system("touch ./".$name."/footer.php");
 	system("touch ./".$name."/single.php");
-	system("touch ./".$name."/function.php");
+	system("touch ./".$name."/functions.php");
 	system("sleep 0.1");
 
 	print("\n\nVeuillez entrer votre nom d'auteur [null] : ");
